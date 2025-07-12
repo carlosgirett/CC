@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Página Web</title>
+  <title>Innovaciones futuristas</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Orbitron for headings, Inter for body -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Orbitron:wght@400;600;700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  
+
 </head>
+
 <body>
   <header>
     <!--Gustavo-->
@@ -17,7 +25,61 @@
 
 
     <!--Carlos-->
-
+    <section id="proyectos"
+      class="py-20 px-4 bg-gradient-to-tl from-gray-900 to-blue-900 flex flex-col items-center text-center">
+      <h2 class="text-4xl font-bold mb-12 text-teal-300 animate-fade-in animate-delay-400">Nuestros Proyectos Estelares
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl w-full mx-auto">
+        <!-- Project Card 1 -->
+        <div
+          class="glassmorphism p-6 rounded-xl flex flex-col items-center text-center project-card-hover animate-fade-in animate-delay-600">
+          <div class="text-5xl mb-4 text-yellow-300">💡</div> <!-- Icon placeholder -->
+          <h3 class="text-2xl font-semibold mb-3 text-teal-200">Dispositivos Inteligentes Interconectados</h3>
+          <p class="text-blue-100">Una suite de gadgets que se comunican entre sí para optimizar tu día a día, desde el
+            hogar hasta tu oficina espacial.</p>
+        </div>
+        <!-- Project Card 2 -->
+        <div
+          class="glassmorphism p-6 rounded-xl flex flex-col items-center text-center project-card-hover animate-fade-in animate-delay-700">
+          <div class="text-5xl mb-4 text-purple-300">🚀</div> <!-- Icon placeholder -->
+          <h3 class="text-2xl font-semibold mb-3 text-teal-200">Drones Autónomos para Exploración Espacial</h3>
+          <p class="text-blue-100">Pequeños exploradores robóticos diseñados para mapear y analizar entornos
+            extraterrestres con mínima intervención humana.</p>
+        </div>
+        <!-- Project Card 3 -->
+        <div
+          class="glassmorphism p-6 rounded-xl flex flex-col items-center text-center project-card-hover animate-fade-in animate-delay-800">
+          <div class="text-5xl mb-4 text-green-300">🤖</div> <!-- Icon placeholder -->
+          <h3 class="text-2xl font-semibold mb-3 text-teal-200">Robot Barista con IA (Mate Edition)</h3>
+          <p class="text-blue-100">Tu compañero perfecto para la mañana: un robot que aprende tus preferencias y prepara
+            el mate perfecto con inteligencia artificial.</p>
+        </div>
+        <!-- Project Card 4 (New Example) -->
+        <div
+          class="glassmorphism p-6 rounded-xl flex flex-col items-center text-center project-card-hover animate-fade-in animate-delay-900">
+          <div class="text-5xl mb-4 text-red-300">🌐</div> <!-- Icon placeholder -->
+          <h3 class="text-2xl font-semibold mb-3 text-teal-200">Redes Cuánticas de Comunicación</h3>
+          <p class="text-blue-100">Desarrollando la próxima generación de internet, con seguridad inquebrantable y
+            velocidades inimaginables.</p>
+        </div>
+        <!-- Project Card 5 (New Example) -->
+        <div
+          class="glassmorphism p-6 rounded-xl flex flex-col items-center text-center project-card-hover animate-fade-in animate-delay-1000">
+          <div class="text-5xl mb-4 text-blue-300">🌱</div> <!-- Icon placeholder -->
+          <h3 class="text-2xl font-semibold mb-3 text-teal-200">Agricultura Vertical con Biotecnología</h3>
+          <p class="text-blue-100">Soluciones innovadoras para el cultivo de alimentos en entornos urbanos, optimizando
+            recursos y maximizando la producción.</p>
+        </div>
+        <!-- Project Card 6 (New Example) -->
+        <div
+          class="glassmorphism p-6 rounded-xl flex flex-col items-center text-center project-card-hover animate-fade-in animate-delay-1100">
+          <div class="text-5xl mb-4 text-orange-300">🧠</div> <!-- Icon placeholder -->
+          <h3 class="text-2xl font-semibold mb-3 text-teal-200">Interfaces Cerebro-Computadora Avanzadas</h3>
+          <p class="text-blue-100">Explorando la conexión directa entre la mente humana y los sistemas digitales para
+            una interacción sin precedentes.</p>
+        </div>
+      </div>
+    </section>
 
   </main>
 
@@ -25,4 +87,5 @@
     <!--Gustavo-->
   </footer>
 </body>
+
 </html>

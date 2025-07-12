@@ -1,12 +1,44 @@
 /*Gustavo - Header*/
 
+/* Custom styles to integrate Google Fonts and general body appearance */
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  /* Dark futuristic gradient */
+  color: #e0e7ff;
+  /* Light bluish-white text */
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+  /* Smooth scrolling for anchor links */
+  overflow-x: hidden;
+  /* Prevent horizontal scroll on animations */
+}
 
+h1,
+h2,
+h3 {
+  font-family: 'Orbitron', sans-serif;
+  color: #81e6d9;
+  /* Teal accent for headings */
+}
 
 /*Matias*/
 
 
 
 /*Carlos*/
-
+.glassmorphism {
+  background-color: rgba(255, 255, 255, 0.08);
+  /* Slightly visible white with transparency */
+  backdrop-filter: blur(15px);
+  /* Strong blur effect */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  /* Subtle border */
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  /* Stronger shadow for depth */
+}
 
 /*Gustavo - Footer*/
