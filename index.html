@@ -4,13 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Página Web</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css"> 
   
 </head>
 <body>
-  <header>
-    <!--Gustavo-->
-  </header>
+      <h1 class="text-3xl font-bold tracking-wider text-teal-300">Innovaciones Futuristas</h1>
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:flex">
+            <ul class="flex space-x-8 text-lg">
+                <li><a href="#inicio" class="text-blue-200 hover:text-white transition-colors duration-300 font-semibold">Inicio</a></li>
+                <li><a href="#sobre-nosotros" class="text-blue-200 hover:text-white transition-colors duration-300 font-semibold">Sobre Nosotros</a></li>
+                <li><a href="#proyectos" class="text-blue-200 hover:text-white transition-colors duration-300 font-semibold">Proyectos</a></li>
+                <li><a href="#contacto" class="text-blue-200 hover:text-white transition-colors duration-300 font-semibold">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Hamburger Menu Icon (Mobile) -->
+        <div class="md:hidden flex items-center">
+            <button id="hamburgerBtn" class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
 
   <main id="inicio">
     <!--Matias-->
@@ -21,8 +37,11 @@
 
   </main>
 
-  <footer>
-    <!--Gustavo-->
-  </footer>
+  <!-- Footer Section -->
+    <footer class="py-8 px-4 bg-gray-900 text-center text-blue-200 text-sm glassmorphism rounded-t-xl animate-fade-in animate-delay-1400">
+        <p class="mb-2">&copy; 2025 Innovaciones Futuristas. Todos los derechos reservados.</p>
+        <p class="mb-2">Diseñado con pasión por programadores visionarios.</p>
+        <p>Síguenos en <a href="#" class="text-teal-300 hover:underline font-semibold">@FutuTech</a></p>
+    </footer>
 </body>
 </html>
