@@ -118,6 +118,35 @@
         <p class="mb-2">Diseñado con pasión por programadores visionarios.</p>
         <p>Síguenos en <a href="#" class="text-teal-300 hover:underline font-semibold">@FutuTech</a></p>
     </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const hamburgerBtn = document.getElementById('hamburgerBtn');
+            const mobileNavMenu = document.getElementById('mobileNavMenu');
+            const closeMobileMenuBtn = document.getElementById('closeMobileMenuBtn');
+            const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+
+            // Function to close the mobile menu
+            const closeMobileMenu = () => {
+                mobileNavMenu.classList.remove('open');
+                hamburgerBtn.classList.remove('open');
+            };
+
+            // Toggle mobile navigation menu
+            hamburgerBtn.addEventListener('click', () => {
+                mobileNavMenu.classList.toggle('open');
+                hamburgerBtn.classList.toggle('open');
+            });
+
+            // Close mobile navigation when the 'X' button is clicked
+            closeMobileMenuBtn.addEventListener('click', closeMobileMenu);
+
+            // Close mobile navigation when a link is clicked
+            mobileNavLinks.forEach(link => {
+                link.addEventListener('click', closeMobileMenu);
+            });
+        });
+    </script>
+    
 </body>
 
 </html>
