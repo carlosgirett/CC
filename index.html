@@ -16,9 +16,26 @@
 </head>
 
 <body>
-  <header>
-    <!--Gustavo-->
-  </header>
+  <header class="fixed top-0 left-0 w-full z-50 py-4 px-8 flex justify-between items-center glassmorphism rounded-b-xl animate-slide-in-top">
+        <h1 class="text-3xl font-bold tracking-wider text-teal-300">Innovaciones Futuristas</h1>
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:flex">
+            <ul class="flex space-x-8 text-lg">
+                <li><a href="#inicio" class="text-blue-200 hover:text-white transition-colors duration-300 font-semibold">Inicio</a></li>
+                <li><a href="#sobre-nosotros" class="text-blue-200 hover:text-white transition-colors duration-300 font-semibold">Sobre Nosotros</a></li>
+                <li><a href="#proyectos" class="text-blue-200 hover:text-white transition-colors duration-300 font-semibold">Proyectos</a></li>
+                <li><a href="#contacto" class="text-blue-200 hover:text-white transition-colors duration-300 font-semibold">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Hamburger Menu Icon (Mobile) -->
+        <div class="md:hidden flex items-center">
+            <button id="hamburgerBtn" class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
 
   <main id="inicio">
     <!--Matias-->
