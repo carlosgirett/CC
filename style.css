@@ -3,7 +3,89 @@
 
 
 /*Matias*/
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+/* Fondo general con degradado azul-verde futurista */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #00ffcc, #0066ff);
+  color: white;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Estilo futurista tipo glassmorphism */
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+/* Botón futurista */
+.btn-futuristic {
+  display: inline-block;
+  padding: 14px 28px;
+  background: linear-gradient(90deg, #00ffcc, #00bfff);
+  color: #001f3f;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  box-shadow: 0 0 15px rgba(0, 255, 204, 0.5);
+}
+
+.btn-futuristic:hover {
+  background: linear-gradient(90deg, #00bfff, #00ffcc);
+  box-shadow: 0 0 25px rgba(0, 255, 204, 0.8);
+  transform: scale(1.05);
+}
+
+/* Animación de aparición */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 1s ease-out forwards;
+}
+
+.animate-delay-200 {
+  animation-delay: 0.5s;
+}
+
+/* Responsive para texto */
+h2 {
+  color: #00ffe5;
+}
+
+p {
+  color: #cceeff;
+}
+
+/* Ajustes de sección para responsividad */
+section {
+  width: 100%;
+  padding: 4rem 1rem;
+}
+
+        
 
 
 /*Carlos*/
