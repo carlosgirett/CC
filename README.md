@@ -41,11 +41,24 @@ Tecnologías utilizadas:
 ### Opción 1: Ver en línea
 
 👉 **[Haz clic aquí para ver la página desplegada][(https://lightgreen-dotterel-188577.hostingersite.com/)]**  
-*(Reemplazar con la URL final al subir)*
 
 ### Opción 2: Clonar y ejecutar localmente
 
 ```bash
 git clone https://github.com/tuusuario/innovaciones-futuristas.git
 cd innovaciones-futuristas
-# Abrir index.html con cualquier navegador
+- Abrir index.html con cualquier navegador
+
+---
+# Capturas de Pantalla
+- Inicio
+<img width="1419" height="767" alt="Inicio" src="https://github.com/user-attachments/assets/ae831f66-5468-4301-9a43-e71f9fcc0c11" />
+
+- Sobre Nosotros:
+<img width="1419" height="773" alt="Sobre Nosotros" src="https://github.com/user-attachments/assets/3efa9033-0eab-4a57-be1c-671b048b5aea" />
+
+- Proyectos Estelares
+<img width="1423" height="767" alt="Proyectos estelares" src="https://github.com/user-attachments/assets/df076f87-1923-457c-840d-d5b8cb2dffda" />
+
+
+
