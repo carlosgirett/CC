@@ -1,7 +1,12 @@
-Trabajo final de Clase Cloud Computing
-Enlace a GIT: https://github.com/carlosgirett/CC
-Enlace a la web: https://lightgreen-dotterel-188577.hostingersite.com/
-Enlace a Trello: https://trello.com/b/CZDXUp5X/cloud-computing
+# Trabajo final de Clase Cloud Computing
+- Enlace a GIT: https://github.com/carlosgirett/CC
+- Enlace a la web: https://lightgreen-dotterel-188577.hostingersite.com/
+- Enlace a Trello: https://trello.com/b/CZDXUp5X/cloud-computing
+
+# Integrantes:
+- Carlos Saul Girett
+- Gustavo Ramon Cardozo
+- Mathias Gabriel Ramirez
 
 # 🚀 Innovaciones Futuristas
 
