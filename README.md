@@ -3,10 +3,10 @@
 - Enlace a la web: https://lightgreen-dotterel-188577.hostingersite.com/
 - Enlace a Trello: https://trello.com/b/CZDXUp5X/cloud-computing
 
-# Integrantes:
-- Carlos Saul Girett
-- Gustavo Ramon Cardozo
-- Mathias Gabriel Ramirez
+# Integrantes y responsabilidades:
+- Carlos Saul Girett: Sección Nuestros Proyectos (HTML + CSS) , Redacción de este README.md, Redacción de las tareas de Trello.
+- Gustavo Ramon Cardozo: Estilos del header y footer, Despliegue de la página en Hostinger, Modificación del README.md en GitHub.
+- Mathias Gabriel Ramirez: Sección de Inicio (HTML + CSS), Sección Sobre Nosotros (HTML + CSS), Preparar el documento Word del informe.
 
 # 🚀 Innovaciones Futuristas
 
@@ -48,11 +48,12 @@ Tecnologías utilizadas:
 git clone https://github.com/tuusuario/innovaciones-futuristas.git
 cd innovaciones-futuristas
 - Abrir index.html con cualquier navegador
+```
 
 ---
 # Capturas de Pantalla
 - Inicio
-<img width="1419" height="767" alt="Inicio" src="https://github.com/user-attachments/assets/ae831f66-5468-4301-9a43-e71f9fcc0c11" />
+<img width="1419" height="767" alt="Inicio" src="https://github.com/user-attachments/assets/7f83f510-ea7a-44fa-a655-9102c87910f9" />
 
 - Sobre Nosotros:
 <img width="1419" height="773" alt="Sobre Nosotros" src="https://github.com/user-attachments/assets/3efa9033-0eab-4a57-be1c-671b048b5aea" />
